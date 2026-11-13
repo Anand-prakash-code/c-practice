@@ -6,18 +6,18 @@ int main ()
     
    ptr =&x;
    *ptr =0 ;
-   printf("ptr value is  %d\n",x);
-   printf(" ptr = %d \n ",*ptr);
+   printf("ptr value is  %d\n",x); //0
+   printf(" ptr = %d \n ",*ptr); //0
 
    *ptr+=5 ;
-     printf("x is = %d\n",x);
-     printf(" *ptr is %d\n",*ptr);
+     printf("x is = %d\n",x); //5
+     printf(" *ptr is %d\n",*ptr); //5
       
      
 
      (*ptr)++ ;
-     printf(" x is %d\n",x);
-     printf (" *ptr is %d\n",*ptr);
+     printf(" x is %d\n",x);  //6
+     printf (" *ptr is %d\n",*ptr); //6
     
     
     return 0;   }
